@@ -15,12 +15,12 @@ public class BubbleSort
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                  
-                }
-            
-          
+                }       
         }
-    }  for (int i = 0; i < arr.length; i++) {
+    }  
+    for (int i = 0; i < arr.length; i++) //to print entire new array after sorting
+        {
         System.out.print(arr[i] + " ");
     }
-}
+  }
 }
